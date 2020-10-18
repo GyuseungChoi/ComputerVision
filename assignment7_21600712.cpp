@@ -64,7 +64,7 @@ int main() {
 
 		a = cos(theta_avg_left);
 		b = sin(theta_avg_left);
-		x0 = a * rho_avg_left + 200; // result¿¡ ¸ÂÃã
+		x0 = a * rho_avg_left + 200; // result
 		y0 = b * rho_avg_left + 400;
 		p1 = Point(cvRound(x0 + 2000 * (-b)), cvRound(y0 + 2000 * a));
 		p2 = Point(cvRound(x0 - 2000 * (-b)), cvRound(y0 - 2000 * a));
@@ -87,7 +87,7 @@ int main() {
 
 		a = cos(theta_avg_right);
 		b = sin(theta_avg_right);
-		x0 = a * rho_avg_right + 600; // result¿¡ ¸ÂÃã
+		x0 = a * rho_avg_right + 600; // result
 		y0 = b * rho_avg_right + 400;
 		p1 = Point(cvRound(x0 + 1000 * (-b)), cvRound(y0 + 1000 * a));
 		p2 = Point(cvRound(x0 - 1000 * (-b)), cvRound(y0 - 1000 * a));
